@@ -1,0 +1,11 @@
+
+spring:
+  batch:
+    initialize-schema: never
+    job.enabled: false
+flare.base:
+  data-source:
+    jdbc-url: # override in application-env
+    username:
+    password: # override in application-env
+    maximum-pool-size: 10
